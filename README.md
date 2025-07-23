@@ -1,4 +1,4 @@
-## TP de BIG DATA & Data Miningl – Régression & Classification
+## TP de BIG DATA & Data Mining – Régression & Classification
 
 Ce repository contient deux travaux pratiques  mettant en application des algorithmes  de machine learning avec Python en utilisant un notebook Jupyter
 
