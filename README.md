@@ -27,3 +27,57 @@ Techniques et Methodes utilisees :
 
 Fichier : TP_RL_et_RF_Demato.ipynb
 
+# 📊 UCI Credit Card Default Prediction
+
+Ce projet utilise le célèbre dataset *UCI Credit Card Default* pour prédire si un client de carte de crédit fera défaut de paiement le mois suivant. Il s'agit d'un problème de classification binaire avec un fort potentiel pour l'analyse prédictive et l'apprentissage automatique.
+
+## 🧠 Objectif
+
+Développer et évaluer des modèles de Machine Learning capables de prédire le champ `default_payment_next_month` en fonction des autres caractéristiques du client (démographiques, comportement de paiement, montants facturés, remboursements…).
+
+## 📁 Description du Dataset
+
+Le dataset contient **30 000 lignes** et **24 colonnes**, dont :
+
+| Colonne | Description |
+|---------|-------------|
+| `ID` | Identifiant du client (à ignorer dans les modèles) |
+| `LIMIT_BAL` | Limite de crédit (en NT$) |
+| `SEX` | Sexe (1 = Homme, 2 = Femme) |
+| `EDUCATION` | Niveau d'éducation (1 = Graduate school, 2 = University, 3 = High school, 4 = Autre) |
+| `MARRIAGE` | Statut marital (1 = Marié, 2 = Célibataire, 3 = Autre) |
+| `AGE` | Âge |
+| `PAY_0` à `PAY_6` | Historique de paiement mensuel (de avril à septembre) |
+| `BILL_AMT1` à `BILL_AMT6` | Montants de facturation (avril à septembre) |
+| `PAY_AMT1` à `PAY_AMT6` | Montants remboursés (avril à septembre) |
+| `default_payment_next_month` | **Variable cible** (1 = défaut, 0 = pas de défaut) |
+
+## 🔍 Explorations possibles
+
+- Analyse de corrélation entre les variables de paiement et le défaut
+- Étude des profils à risque (par sexe, âge, éducation…)
+- Prétraitement des données (normalisation, gestion des outliers)
+- Sélection de variables pertinentes pour la prédiction
+
+## 🚀 Modèles à expérimenter
+
+- Régression Logistique
+- Arbre de décision & Random Forest
+- Support Vector Machines (SVM)
+- Réseaux de Neurones (Keras / TensorFlow)
+- XGBoost / LightGBM
+
+## 🛠️ Structure du Projet
+
+```bash
+📦 UCI_Credit_Default_Prediction/
+├── data/
+│   └── UCI_Credit_Card.csv
+├── notebooks/
+│   └── Exploratory_Analysis.ipynb
+│   └── Model_Training.ipynb
+├── models/
+│   └── trained_model.pkl
+├── README.md
+├── requirements.txt
+└── main.py
