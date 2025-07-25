@@ -62,10 +62,11 @@ Classer les patients dans l’une des 6 classes de maladies dermatologiques à p
 - Nombre d’échantillons : 366
 - Cible (`class`) : 6 types de maladies
 
-### ⚙️ Modèles testés
+### ⚙️ Modèles utilisés
 - Régression Logistique
 - Random Forest
 - Réseau de neurones multiclasses (optionnel)
+- Shallow Neural Network
 
 ### 📈 Évaluation
 - Accuracy
