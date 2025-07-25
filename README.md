@@ -15,16 +15,16 @@ Les modèles utilisés incluent :
 
 ## 📁 Structure du projet
 
-ML-Projects/
-├── credit_card_default/
-│ ├── dataset/
-│ ├── SNN_model.ipynb
-│ 
-├── dermatology/
-│ ├── dataset/
-│ ├── logistic_randomforest.ipynb
-│ 
-└── README.md
+.
+├── Data/                          # Dossiers contenant les datasets
+│   ├── UCI_Credit_Card.csv        # Dataset sur les cartes de crédit (Kaggle)
+│   └── dermatology.csv            # Dataset sur les diagnostics dermatologiques (Kaggle)
+│
+├── TP Credit_Card_SNN.ipynb       # Notebook d'entraînement du SNN sur les données de crédit
+├── TP RL_et_RF_Dermato.ipynb      # Notebook de Régression Logistique et Random Forest sur les données dermatologiques
+│
+├── README.md                      # Description du projet
+├── Requirement.txt                # Dépendances Python à installer
 
 
 ---
