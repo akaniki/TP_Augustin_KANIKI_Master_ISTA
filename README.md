@@ -35,7 +35,7 @@ ML-Projects/
 Prédire si un client va faire défaut sur sa carte de crédit le mois suivant (`default_payment_next_month`).
 
 ### 📊 Données
-- Source : [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
+- Source : Kaggle - uciml/default-of-credit-card-clients-dataset
 - Nombre d’observations : 30 000+
 - Variables : `LIMIT_BAL`, `SEX`, `AGE`, `EDUCATION`, `MARRIAGE`, `PAY_0` à `PAY_6`, `BILL_AMT`, etc.
 - Cible : `default_payment_next_month`
@@ -58,7 +58,7 @@ Prédire si un client va faire défaut sur sa carte de crédit le mois suivant (
 Classer les patients dans l’une des 6 classes de maladies dermatologiques à partir d'observations cliniques.
 
 ### 📊 Données
-- Source : UCI Dermatology Dataset
+- Source : Kaggle - olcaybolat1/dermatology-dataset-classification
 - Nombre d’échantillons : 366
 - Cible (`class`) : 6 types de maladies
 
