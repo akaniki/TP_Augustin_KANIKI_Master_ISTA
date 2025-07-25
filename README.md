@@ -14,7 +14,7 @@ Les modèles utilisés incluent :
 ---
 
 ## 📁 Structure du projet
-
+```
 .
 ├── Data/                          # Dossiers contenant les datasets
 │   ├── UCI_Credit_Card.csv        # Dataset sur les cartes de crédit (Kaggle)
@@ -26,7 +26,7 @@ Les modèles utilisés incluent :
 ├── README.md                      # Description du projet
 ├── Requirement.txt                # Dépendances Python à installer
 
-
+``` 
 ---
 
 ## 📌 1. Projet Crédit (UCI Credit Card Dataset)
